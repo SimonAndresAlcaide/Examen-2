@@ -1,0 +1,110 @@
+
+body {
+ 
+  background-color:hsl(46, 90%, 49%);
+  font-family: sans-serif;
+}
+header{
+  background-color: coral;
+ 
+  
+}
+p#A{
+  text-align: left;
+  color: blue;
+  font-size: 10px;
+}
+p#B{
+  color: blue;
+  font-size: 10px;
+}
+li{
+  color: blue;
+  font-size: 10px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  font: oblique bold 200% cursive;
+  text-shadow: black 6px 6px 4px;
+}
+div.a{
+  border: red 5px solid;
+  background-color:yellow;
+  
+}
+
+nav.aug a{
+  text-align: center;
+  color: black;
+  padding: 8%;
+  background: url("naranja2.svg") repeat-x bottom;
+  background-size: 20px;
+  
+}
+p {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+p#m2 {
+  font-size: 12px;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  width: 35%;
+  height: 30%;
+  border: hsl(0, 89%, 48%) 4px solid;
+  background-color: coral;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  /* background: url("naranja.png") repeat-y left, url("naranja.png") repeat-y right; */
+  padding: 3px 50px;
+  background-size: 50px;
+  text-decoration: overline;
+  z-index: 2;
+}
+
+p#m5 {
+  font-size: 12px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(300, 15%, 70%) 4px solid;
+  background-color: hsl(300, 100%, 95%);
+  text-align: left;
+  word-spacing: 3px;
+  color: chartreuse;
+}
+
+p#m6 {
+  font-size: 12px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(0, 15%, 45%) 4px solid;
+  background-color: hsl(0, 100%, 85%);
+  text-align: right;
+  color: darkblue
+}
+section{
+  margin: auto;
+  background: url("naranja2.svg") repeat-x bottom;
+}
+div{
+  background-color: coral;
+}
+footer p{
+  text-align: center;
+  background-color: yellow;
+  color: coral;
+  font-size: 10px;
+}
+p:hover {
+  z-index: 3;
+}
